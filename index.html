@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio for Pyae Sone Aung (Mitch), a graduate software developer focused on full-stack web development and applied AI."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Pyae Sone Aung (Mitch) - Graduate Software Developer" />
+    <meta
+      property="og:description"
+      content="A polished graduate software developer portfolio covering full-stack, web and applied-AI projects."
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#08101F" />
+    <link rel="icon" type="image/svg+xml" href="%BASE_URL%favicon.svg" />
+    <title>Pyae Sone Aung (Mitch) - Graduate Software Developer</title>
+    <script>
+      (() => {
+        const key = "mitch-portfolio-theme";
+        try {
+          const stored = localStorage.getItem(key);
+          const preferred = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+          const theme = stored === "dark" || stored === "light" ? stored : preferred;
+          document.documentElement.dataset.theme = theme;
+          document.documentElement.style.colorScheme = theme;
+        } catch {
+          document.documentElement.dataset.theme = "light";
+          document.documentElement.style.colorScheme = "light";
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

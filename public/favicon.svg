@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Mitch portfolio favicon">
+  <rect width="64" height="64" rx="14" fill="#08101F"/>
+  <path d="M14 46V18h8l10 14 10-14h8v28h-8V31L33 43h-2L22 31v15h-8Z" fill="#F6F8FC"/>
+  <path d="M48 14h6v6h-6zM10 44h6v6h-6z" fill="#F05252"/>
+</svg>
