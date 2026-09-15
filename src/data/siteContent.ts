@@ -1,4 +1,4 @@
-export type NavItem = {
+﻿export type NavItem = {
   label: string;
   path: string;
   activePaths?: string[];
@@ -92,7 +92,7 @@ export const siteContent = {
     name: "Pyae Sone Aung",
     preferredName: "Mitch",
     displayName: "Pyae Sone Aung (Mitch)",
-    professionalLabel: "Graduate Software Developer · Full-Stack & Applied AI",
+    professionalLabel: "Graduate Software Developer Â· Full-Stack & Applied AI",
     profilePhoto: "/assets/profile/prof-headshot.png",
     intro:
       "First-Class BSc (Hons) Applied Computing graduate from the University of Huddersfield, focused on practical full-stack products and applied AI.",
@@ -113,8 +113,8 @@ export const siteContent = {
     { label: "CV", path: "/cv" }
   ] satisfies NavItem[],
   cv: {
-    pdfPath: "/assets/cv/PyaeSoneAung_ResumeMST.pdf",
-    downloadFilename: "PyaeSoneAung_ResumeMST.pdf"
+    pdfPath: "/assets/cv/PyaeSoneAung_Resume_New.pdf",
+    downloadFilename: "PyaeSoneAung_Resume_New.pdf"
   },
   portraitQuadrants: [
     {
@@ -472,3 +472,4 @@ export const siteContent = {
   },
   funExperiments: [] as FunExperiment[]
 };
+
